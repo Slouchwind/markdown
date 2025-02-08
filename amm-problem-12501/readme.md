@@ -31,12 +31,7 @@ $$
 
 <details>
 
-<summary>
-
-引理 $1$: $$I=\int_0^1{t^k\ln^nt}\mathrm{d}t=(-1)^n\frac{\Gamma(n+1)}{(k+1)^{n+1}}$$
-其中 $n\in\mathbb{Z}$
-
-</summary>
+<summary> 引理 $1$: $\displaystyle I=\int_0^1{t^k\ln^nt}\mathrm{d}t=(-1)^n\frac{\Gamma(n+1)}{(k+1)^{n+1}}$, 其中 $n\in\mathbb{Z}$ </summary>
 
 令 $\displaystyle u=-\ln t \in [0,+\infty)$, 则 $\displaystyle t=e^{-u}, \mathrm{d}t=-e^{-u}\mathrm{d}u$.
 
@@ -52,12 +47,7 @@ $$
 
 <details>
 
-<summary>
-
-引理 $2$: $$I=\int_0^1{\frac{\ln^nt}{1-t}}\mathrm{d}t=(-1)^n\Gamma(n+1)\zeta(n+1)$$
-其中 $n\in\mathbb{Z}$
-
-</summary>
+<summary> 引理 $2$: $\displaystyle I=\int_0^1{\frac{\ln^nt}{1-t}}\mathrm{d}t=(-1)^n\Gamma(n+1)\zeta(n+1)$, 其中 $n\in\mathbb{Z}$ </summary>
 
 $$
 \begin{aligned}
