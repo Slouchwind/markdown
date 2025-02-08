@@ -1,10 +1,12 @@
 ![](./p1.jpg)
 
-$
-f(x+f(y))=f(f(x))+y\\
-=f(0+f(x))+y\\
-=f(f(0))+x+y
-$
+$$
+\begin{aligned}
+f(x+f(y))&=f(f(x))+y\\
+&=f(0+f(x))+y\\
+&=f(f(0))+x+y
+\end{aligned}
+$$
 
 令 $t=x+f(y)$.
 $f(t)=t-f(y)+f(f(0))+y$

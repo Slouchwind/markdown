@@ -7,7 +7,7 @@ $$
 \begin{aligned}
 I &= \int_0^\infty{\frac{(\ln(x/(1+x)))^4\ln(x^3(1+x)^{17})}{1+x}}\mathrm{d}x \\
 &= \int_0^\infty{\frac{(\ln\frac{x}{1+x})^4(3\ln x+17\ln(1+x))}{1+x}}\mathrm{d}x \\
-\end{aligned} 
+\end{aligned}
 $$
 
 可以发现 $\displaystyle(\ln\frac{x}{1+x})^4$ 项不容易化简, 因此我们令 $\displaystyle t=\frac{x}{1+x}\in[0,1]$, 继续化简,
@@ -17,6 +17,7 @@ $$
 和 $3\ln x+17\ln(1+x)=3\ln t-3\ln(1-t)-17\ln(1-t)=3ln t-20ln(1-t)$.
 
 因此原积分可以化简为
+
 $$
 \begin{aligned}
 I &= 3\int_0^1{\frac{\ln^5t}{1-t}}\mathrm{d}t-20\int_0^1{\frac{\ln^4t\ln(1-t)}{1-t}}\mathrm{d}t \\
