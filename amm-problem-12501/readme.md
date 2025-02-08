@@ -35,13 +35,13 @@ $$
 
 令 $\displaystyle u=-\ln t \in [0,+\infty)$, 则 $\displaystyle t=e^{-u}, \mathrm{d}t=-e^{-u}\mathrm{d}u$.
 
-$$
+```math
 \begin{aligned}
 I &= \int_\infty^0 e^{-ku}(-u)^n(-e^{-u}\mathrm{d}u) \\
 &= (-1)^n\int_0^\infty u^ne^{-(k+1)u}\mathrm{d}u \\
 &= (-1)^n\frac{\Gamma(n+1)}{(k+1)^{n+1}} \\
 \end{aligned}
-$$
+```
 
 </details>
 
@@ -49,14 +49,14 @@ $$
 
 <summary> 引理 $2$: $\displaystyle I=\int_0^1{\frac{\ln^nt}{1-t}}\mathrm{d}t=(-1)^n\Gamma(n+1)\zeta(n+1)$, 其中 $n\in\mathbb{Z}$ </summary>
 
-$$
+```math
 \begin{aligned}
 I &= \int_0^1{\ln^nt\sum_{k=0}^\infty{t^k}}\mathrm{d}t \\
 &= \sum_{k=0}^\infty\int_0^1{t^k\ln^nt}\mathrm{d}t \\
 &= (-1)^n\sum_{k=0}^\infty\frac{\Gamma(n+1)}{(k+1)^{n+1}} \\
 &= (-1)^n\Gamma(n+1)\zeta(n+1)
 \end{aligned}
-$$
+```
 
 </details>
 
