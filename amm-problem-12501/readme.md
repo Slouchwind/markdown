@@ -34,7 +34,7 @@ $$
 <summary>
 
 引理 $1$: $$I=\int_0^1{t^k\ln^nt}\mathrm{d}t=(-1)^n\frac{\Gamma(n+1)}{(k+1)^{n+1}}$$
-其中 $n\in\Z$
+其中 $n\in\mathbb{Z}$
 
 </summary>
 
@@ -55,7 +55,7 @@ $$
 <summary>
 
 引理 $2$: $$I=\int_0^1{\frac{\ln^nt}{1-t}}\mathrm{d}t=(-1)^n\Gamma(n+1)\zeta(n+1)$$
-其中 $n\in\Z$
+其中 $n\in\mathbb{Z}$
 
 </summary>
 
