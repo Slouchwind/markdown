@@ -89,7 +89,7 @@ $$
 
 $$
 \begin{aligned}
-S(r)&=\frac{(-H_r)^2+H_r^{(2)}}{r}
+S(r)&=\frac{(-H_r)^2+H_r^{(2)}}{r} \\
 &=\frac{H_r^2+H_r^{(2)}}{r}
 \end{aligned}
 $$
