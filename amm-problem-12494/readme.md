@@ -37,12 +37,19 @@ $$
 ### $r\in\mathbb{Z}^+$ 时
 
 同理得
+
 $$S(r)=\int_0^1x^r\frac{\ln^2(1-x)}{x}\mathrm{d}x$$
+
 令 $t=1-x$ 得:
+
 $$S(r)=\int_0^1(1-t)^{r-1}\ln^2t\mathrm{d}t$$
+
 观察 $B$ 函数:
+
 $$B(a,b)=\int_0^1t^{a-1}(1-t)^{b-1}\mathrm{d}t=\frac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}$$
+
 对 $a$ 求两次偏导:
+
 $$\frac{\partial^2B}{\partial a^2}=\int_0^1t^{a-1}(1-t)^{b-1}\ln^2t\mathrm{d}t$$
 
 可见 $a=1, b=r$ 是我们所需要的情况，接下来具体计算:
@@ -50,12 +57,12 @@ $$\frac{\partial^2B}{\partial a^2}=\int_0^1t^{a-1}(1-t)^{b-1}\ln^2t\mathrm{d}t$$
 $$
 \begin{aligned}
 \frac{\partial\ln B}{\partial a}&=\psi(a)-\psi(a+b) \\
-\frac{\partial B}{\partial a}&=B(a,b)\left[\psi(a)-\psi(a+b)\right] \\
+\frac{\partial B}{\partial a}&=B(a,b)[\psi(a)-\psi(a+b)] \\
 \frac{\partial^2B}{\partial a^2}&=
-\frac{\partial B}{\partial a}\left[\psi(a)-\psi(a+b)\right]+
-B(a,b)\left[\psi'(a)-\psi'(a+b)\right] \\
-&=B(a,b)\left\{\left[\psi(a)-\psi(a+b)\right]^2+\psi'(a)-\psi'(a+b)\right\} \\
-S(r)&=B(1,r)\left\{\left[\psi(1)-\psi(r+1)\right]^2+\psi'(1)-\psi'(r+1)\right\}
+\frac{\partial B}{\partial a}[\psi(a)-\psi(a+b)]+
+B(a,b)[\psi'(a)-\psi'(a+b)] \\
+&=B(a,b)\left\{[\psi(a)-\psi(a+b)]^2+\psi'(a)-\psi'(a+b)\right\} \\
+S(r)&=B(1,r)\left\{[\psi(1)-\psi(r+1)]^2+\psi'(1)-\psi'(r+1)\right\}
 \end{aligned}
 $$
 
