@@ -58,11 +58,9 @@ $$
 \begin{aligned}
 \frac{\partial\ln B}{\partial a}&=\psi(a)-\psi(a+b) \\
 \frac{\partial B}{\partial a}&=B(a,b)[\psi(a)-\psi(a+b)] \\
-\frac{\partial^2B}{\partial a^2}&=
-\frac{\partial B}{\partial a}[\psi(a)-\psi(a+b)]+
-B(a,b)[\psi'(a)-\psi'(a+b)] \\
-&=B(a,b)\left\{[\psi(a)-\psi(a+b)]^2+\psi'(a)-\psi'(a+b)\right\} \\
-S(r)&=B(1,r)\left\{[\psi(1)-\psi(r+1)]^2+\psi'(1)-\psi'(r+1)\right\}
+\frac{\partial^2B}{\partial a^2}&=\frac{\partial B}{\partial a}[\psi(a)-\psi(a+b)]+B(a,b)[\psi'(a)-\psi'(a+b)] \\
+&=B(a,b)\left\\{[\psi(a)-\psi(a+b)]^2+\psi'(a)-\psi'(a+b)\right\\} \\
+S(r)&=B(1,r)\left\\{[\psi(1)-\psi(r+1)]^2+\psi'(1)-\psi'(r+1)\right\\}
 \end{aligned}
 $$
 
