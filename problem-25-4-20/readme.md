@@ -1,13 +1,13 @@
 记 $(n\in\mathbb{N})\ p_n(t)=
 \begin{cases}
-0&t\in(-\infin,-1)\cup(1,+\infin)\\
+0&t\in(-\infty,-1)\cup(1,+\infty)\\
 (1+t)^n&t\in[-1,0]\\
 (1-t)^n&t\in(0,1]
 \end{cases}$, 求
 
 $$
 \mathcal{F}\{p_n(t)\}(\omega)=
-\int_{-\infin}^{+\infin}e^{-2\pi\mathrm{i}\omega t}p_n(t)\mathrm{d}t
+\int_{-\infty}^{+\infty}e^{-2\pi\mathrm{i}\omega t}p_n(t)\mathrm{d}t
 $$
 
 $$
