@@ -1,0 +1,14 @@
+$$
+\begin{aligned}
+S_n&=\sum_{k=1}^n\frac{k(k+1)}{2^k}\\
+S_n&=\frac{1\times2}{2}+\frac{2\times3}{2^2}+\dots+\frac{n(n+1)}{2^n}\\
+2S_n&=\frac{1\times2}{1}+\frac{2\times3}{2}+\dots+\frac{n(n+1)}{2^{n-1}}\\
+2S_n-S_n&=\frac{1\times2}{1}+\frac{2\times2}{2}+\frac{3\times2}{2^2}+\dots+\frac{n\times2}{2^{n-1}}-\frac{n(n+1)}{2^n}\\
+S_n+\frac{n(n+1)}{2^n}&=2+\frac{2}{1}+\frac{3}{2}+\frac{4}{2^2}+\dots+\frac{n}{2^{n-2}}\\
+2(S_n+\frac{n(n+1)}{2^n})&=4+4+\frac{3}{1}+\frac{4}{2}+\dots+\frac{n}{2^{n-3}}\\
+S_n+\frac{n(n+1)}{2^n}&=6+1+\frac{1}{2}+\frac{1}{2^2}+\dots+\frac{1}{2^{n-3}}-\frac{n}{2^{n-2}}\\
+S_n+\frac{n(n+1)}{2^n}+\frac{n}{2^{n-2}}&=6+2-\frac{1}{2^{n-3}}\\
+S_n&=8+\frac{-n^2-n-4n-8}{2^n}\\
+S_n&=8-\frac{n^2+5n+8}{2^n}
+\end{aligned}
+$$
